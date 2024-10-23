@@ -1,4 +1,4 @@
-package main
+package html
 
 // Titulo resgata o titulo das urls
 func Titulo(urls ...string) <-chan string {
