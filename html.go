@@ -1,3 +1,6 @@
+package html
+
+// Titulo resgata o titulo das urls
 func Titulo(urls ...string) <-chan string {
 	c := make(chan string)
 	for _, url := range urls {
